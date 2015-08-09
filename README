@@ -1,0 +1,27 @@
+First development of a tool to convert PDF of scientific
+articles into EPUB file (to read them on a eReader) based
+on a fork of PDFminer.
+
+##########################################
+# THIS PROGRAM IS NOT COMPLET FOR NOW =) #
+# Early stage development                #
+##########################################
+
+First accomplishments:
+----------------------
+- Detection of scientific articles layout (complex 2 columns)
+- Remove header and footer
+- First conversion to xhtml files with metadata
+
+Current development:
+--------------------
+- Extracting text from the layout
+- LaTeX formula detection and recomposition
+
+Future development:
+-------------------
+- Add PDF internal/external links
+- Table of Contents detection
+- PDF annotations
+- Create mimetype/container.xml/content.opf/toc.ncx files
+  and zip them to .epub file
